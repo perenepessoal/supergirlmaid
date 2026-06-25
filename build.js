@@ -99,8 +99,8 @@ function renderMedia(tweet) {
         html += `
           <div class="media-item">
             <video controls preload="metadata" poster="${m.media_url_https || ""}">
-              <source src="${videoUrl}">
-            </video>
+  <source src="/video?url=${encodeURIComponent(videoUrl)}" type="video/mp4">
+</video>
           </div>
         `;
       }
