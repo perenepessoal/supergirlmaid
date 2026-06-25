@@ -1,0 +1,1159 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Supergirl(MAID) - 7</title>
+
+<style>
+*{box-sizing:border-box}
+
+body{
+  font-family: Arial, sans-serif;
+  background:#eee;
+  margin:0 auto;
+  max-width:1400px;
+  padding:15px;
+  overflow-x:hidden;
+}
+
+.site-title{
+  font-size:32px;
+  font-weight:bold;
+  margin:10px 0 5px 0;
+}
+
+.site-subtitle{
+  font-size:15px;
+  font-weight:normal;
+  color:#444;
+  margin:0 0 20px 0;
+  line-height:1.5;
+  max-width:1100px;
+}
+
+.tweets-container{
+  display:grid;
+  grid-template-columns:repeat(2, minmax(0, 1fr));
+  gap:12px;
+}
+
+@media(max-width:900px){
+  .tweets-container{grid-template-columns:1fr;}
+}
+
+.tweet{
+  background:#fff;
+  border:1px solid #ccc;
+  padding:10px;
+  border-radius:6px;
+}
+
+.tweet-text{
+  font-size:14px;
+  line-height:1.4;
+  word-break:break-word;
+  overflow-wrap:break-word;
+}
+
+.media-grid{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:10px;
+}
+
+img,video{
+  max-width:100%;
+  display:block;
+  border-radius:6px;
+}
+
+.pagination{
+  margin:15px 0;
+  font-size:14px;
+}
+
+.pagination a{
+  text-decoration:none;
+  color:#0645ad;
+}
+
+.pagination strong{color:#000;}
+
+.dots{cursor:pointer;color:#444;font-weight:bold;}
+
+#jumpModal{
+  display:none;
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.6);
+  justify-content:center;
+  align-items:center;
+  z-index:9999;
+}
+
+#jumpBox{
+  background:#fff;
+  padding:20px;
+  border-radius:8px;
+  text-align:center;
+}
+</style>
+
+<script>
+function openJump(){document.getElementById("jumpModal").style.display="flex";}
+function closeJump(){document.getElementById("jumpModal").style.display="none";}
+
+var totalPagesGlobal=1203;
+var pageNumGlobal=7;
+
+function goPage(){
+  const p=parseInt(document.getElementById("pageInput").value,10);
+  if(!p||p<1||p>totalPagesGlobal)return;
+  if(p===pageNumGlobal)return;
+  window.location.href=p+".html";
+}
+</script>
+
+</head>
+
+<body>
+
+<div class="site-title">Supergirl(MAID)</div>
+<p class="site-subtitle" id="subtitle"></p>
+
+<div class="pagination"><a href="6.html" data-t="prev">← Anterior</a> - <a href="1.html">1</a> - <span class="dots" onclick="openJump()">...</span> - <a href="5.html">5</a> - <a href="6.html">6</a> - <strong>7</strong> - <a href="8.html">8</a> - <a href="9.html">9</a> - <span class="dots" onclick="openJump()">...</span> - <a href="1203.html">1203</a> - <a href="8.html" data-t="next">Próxima →</a></div>
+
+<div class="tweets-container">
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Sat Jun 20 00:57:14 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/cZlmqj81vJ
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLN-x45WkAA17sB.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2068136057325985970" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Sat Jun 20 00:57:07 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/e5dUZ9b2bF
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLN-wRvXgAA5Xp7.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2068136028263612594" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Sat Jun 20 00:56:59 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/eLm0CJTMnX
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLN-uUSXIAAtHSu.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2068135994793119892" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Sat Jun 20 00:56:52 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/IZtWN3qWYf
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLN-rXfXkAEf_Jc.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2068135962165604847" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Sat Jun 20 00:56:49 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/V6Xia6kYT5
+      </div>
+
+      <div class="media-grid">
+          <div class="media-item">
+            <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2068135918284779520/img/_7pnSSs1ZRF5SF16.jpg">
+              <source src="https://video.twimg.com/amplify_video/2068135918284779520/vid/avc1/400x736/Q_v5e4Wyia5mu5T2.mp4?tag=14">
+            </video>
+          </div>
+        </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2068135950547366187" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Sat Jun 20 00:56:47 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/0QmsFjTzNm
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLN-o0yXwAActgf.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2068135943454826973" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:54:39 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/Cvn9Qts59p
+      </div>
+
+      <div class="media-grid">
+          <div class="media-item">
+            <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2067772989903364097/img/bVNMikd1JY-DXrWZ.jpg">
+              <source src="https://video.twimg.com/amplify_video/2067772989903364097/vid/avc1/612x1080/uLPGWWz1Fu3YLD5N.mp4?tag=14">
+            </video>
+          </div>
+        </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067773017065722292" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:54:37 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/jzuzbDh1w6
+      </div>
+
+      <div class="media-grid">
+          <div class="media-item">
+            <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2067772973310746624/img/GkT_Bc_ANIMoTX9F.jpg">
+              <source src="https://video.twimg.com/amplify_video/2067772973310746624/vid/avc1/612x1080/__J9G93Byc07crJI.mp4?tag=14">
+            </video>
+          </div>
+        </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067773010111500751" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:53:46 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/IvLgqxEYF2
+      </div>
+
+      <div class="media-grid">
+          <div class="media-item">
+            <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2067772730460569600/img/Pe0u0YblOXA8HgkL.jpg">
+              <source src="https://video.twimg.com/amplify_video/2067772730460569600/vid/avc1/720x720/cBCsXsi_q8OHPwfp.mp4?tag=14">
+            </video>
+          </div>
+        </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067772796256624884" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:53:44 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/p6MntilfGU
+      </div>
+
+      <div class="media-grid">
+          <div class="media-item">
+            <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2067772758944010240/img/IzSVtFOUr71WbmMZ.jpg">
+              <source src="https://video.twimg.com/amplify_video/2067772758944010240/vid/avc1/608x1080/4Y3LJJXMsO98D4u0.mp4?tag=14">
+            </video>
+          </div>
+        </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067772789046608329" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:53:05 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/agmMWrYoKx
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLI0Le7XcAABM9_.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067772623845532058" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:53:04 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/JLqkwsre2d
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLI0OAdWEAATIou.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067772617742811213" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:53:02 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/laiuSlSnba
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLI0M2IWwAAVTSt.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067772611069723053" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:52:26 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/Xbfn05g0gw
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLI0FcTWoAIOo0P.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067772460297044039" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:52:25 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/AgGQ2kYha3
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLI0EhKXEAE_Vn8.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067772454877987277" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:51:55 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/LRfCN3j6gl
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIz9KuW4AAUTqV.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067772330231714051" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:51:53 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/QytMubW5gz
+      </div>
+
+      <div class="media-grid">
+          <div class="media-item">
+            <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2067772248795086849/img/deDjWsbHkQdtJ7ZM.jpg">
+              <source src="https://video.twimg.com/amplify_video/2067772248795086849/vid/avc1/1140x720/LxXjwMwBzmo6lHpg.mp4?tag=14">
+            </video>
+          </div>
+        </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067772321184506111" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:51:51 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/jmEq1052Dg
+      </div>
+
+      <div class="media-grid">
+          <div class="media-item">
+            <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2067772271364620288/img/ZxBHPTwpfM5uqjyA.jpg">
+              <source src="https://video.twimg.com/amplify_video/2067772271364620288/vid/avc1/720x1050/DiSex5drqQK_7TAf.mp4?tag=14">
+            </video>
+          </div>
+        </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067772314020671600" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:49:15 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/D1clvKxMwf
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIzXNDXMAA6VsU.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067771660019630150" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:49:01 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/Wb2WJYtkRt
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIzTwmW8AAA4dt.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067771601223872787" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:48:54 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/Y0TRaUXRVn
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIzSCkXkAACPvH.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067771571356266509" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:48:47 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/Ydmh5jHt6R
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIzQbRWYAAxu5W.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067771543501873657" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:48:41 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/fYmdf5yN8o
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIzOypXIAA8o-u.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067771515517435954" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:48:35 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/4hiAIMNLP3
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIzNRfW8AAlIEZ.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067771489479246154" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:48:28 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/5h9dXfYvAL
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIzLwEXoAIHGvT.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067771463290044568" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:48:21 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/uqsbXGeuZI
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIzKECX0AAfsvM.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067771434244382888" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:48:15 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/mReoAmbSso
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIzIgAXMAAAjoS.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067771407287631943" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:48:08 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/drCsXPnOOq
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIzG5wWMAAZgEH.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067771380032995417" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:48:02 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/Vao74sA1gN
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIzFVnWoAEik4j.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067771353109868801" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:47:56 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/D1stqDyOxj
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIzD2cXcAACFW9.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067771327428034915" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:47:45 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/PL8NhAFmIe
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIy_1EWsAIucga.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067771279982104791" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:47:44 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/R6sw86zcI5
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIzA6ZXoAA4UFu.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067771277637554686" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:47:21 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/KT0dtTpL0j
+      </div>
+
+      <div class="media-grid">
+          <div class="media-item">
+            <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2067771152651415552/img/4S6ZVVnF15i3XU7s.jpg">
+              <source src="https://video.twimg.com/amplify_video/2067771152651415552/vid/avc1/720x958/J7sPFIL_GuBH5LEK.mp4?tag=14">
+            </video>
+          </div>
+        </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067771180770107707" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:47:20 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/99tbUcLTgS
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIy7AVWAAAzrUF.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067771175581663466" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:46:49 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/Bt9zd0ha99
+      </div>
+
+      <div class="media-grid">
+          <div class="media-item">
+            <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2067771020971290626/img/fvcuSu3tWY3gPDJL.jpg">
+              <source src="https://video.twimg.com/amplify_video/2067771020971290626/vid/avc1/574x720/Cg_G2TG_X-PXV65m.mp4?tag=14">
+            </video>
+          </div>
+        </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067771045025653127" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:46:47 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/I3cgMdHVPy
+      </div>
+
+      <div class="media-grid">
+          <div class="media-item">
+            <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2067771002960875520/img/asHpaOrZ3igx-iJ9.jpg">
+              <source src="https://video.twimg.com/amplify_video/2067771002960875520/vid/avc1/720x1080/v6zwPJEUCfxGw9L-.mp4?tag=14">
+            </video>
+          </div>
+        </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067771037836546380" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:46:45 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/UKsJINqY9s
+      </div>
+
+      <div class="media-grid">
+          <div class="media-item">
+            <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2067770986930278401/img/Th-HTjoVHQ1hc_J6.jpg">
+              <source src="https://video.twimg.com/amplify_video/2067770986930278401/vid/avc1/720x720/ftTf2LaNK-hfcRKg.mp4?tag=14">
+            </video>
+          </div>
+        </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067771029359915103" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:46:10 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/RRt8j6nx2U
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIypWtXMAA7y8h.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067770883725259173" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:46:08 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/ElvYM9cNI2
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIyoXGXMAA1e7d.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067770876196434268" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:46:07 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/uH4ES7HfMe
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIyndgWEAA55jI.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067770869728829591" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:43:19 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/Yq8v8jDSbH
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIyANuXwAAwOwq.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067770165803061576" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:43:12 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/bma9YsWYk9
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIx-bjWwAADtYd.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067770135222399281" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:43:05 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/NtXCblpn1s
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIx8yOXEAAnkc4.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067770106994655449" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:42:59 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/ZvrunrNVNz
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIx7QLWwAANo1T.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067770080377676274" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:42:52 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/FVni0FEczK
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIx5vVWwAAQpEW.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067770054293283234" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:42:47 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/wcsjuprWVg
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIx4YKWIAACd4P.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067770031161679902" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:42:35 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/Pl0xUNJxn8
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIx1K9XMAAzgwd.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067769981178151095" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:42:33 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/9qjuRRg6m5
+      </div>
+
+      <div class="media-grid">
+        <div class="media-item">
+          <img loading="lazy" src="https://pbs.twimg.com/media/HLIx0PWWcAApViW.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067769973590647262" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:41:52 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/P7h7JWYwAj
+      </div>
+
+      <div class="media-grid">
+          <div class="media-item">
+            <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2067769761061036032/img/BIDdRNwbY4-sOpkh.jpg">
+              <source src="https://video.twimg.com/amplify_video/2067769761061036032/vid/avc1/720x1280/Angc94WBzV2EOEWH.mp4?tag=14">
+            </video>
+          </div>
+        </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067769799812227221" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+
+    <article class="tweet">
+      <div class="tweet-meta" data-date="Fri Jun 19 00:41:45 +0000 2026"></div>
+
+      <div class="tweet-text">
+        #Supergirl #Superman https://t.co/WNmHYOsf40
+      </div>
+
+      <div class="media-grid">
+          <div class="media-item">
+            <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2067769739082919937/img/fEsJlOUft7QUpKi-.jpg">
+              <source src="https://video.twimg.com/amplify_video/2067769739082919937/vid/avc1/720x808/a4WJqnXMF-Y_sxd9.mp4?tag=14">
+            </video>
+          </div>
+        </div>
+
+      <div class="tweet-link">
+        <a href="https://x.com/i/web/status/2067769772150833594" target="_blank" data-t="open">Abrir tweet original</a>
+      </div>
+    </article>
+  
+</div>
+
+<div class="pagination"><a href="6.html" data-t="prev">← Anterior</a> - <a href="1.html">1</a> - <span class="dots" onclick="openJump()">...</span> - <a href="5.html">5</a> - <a href="6.html">6</a> - <strong>7</strong> - <a href="8.html">8</a> - <a href="9.html">9</a> - <span class="dots" onclick="openJump()">...</span> - <a href="1203.html">1203</a> - <a href="8.html" data-t="next">Próxima →</a></div>
+
+<div id="jumpModal">
+  <div id="jumpBox">
+    <p data-t="jumpTitle">Go to page</p>
+    <input id="pageInput" type="number" min="1" max="1203" onkeydown="if(event.key === 'Enter') goPage()">
+    <button onclick="goPage()">OK</button>
+    <button onclick="closeJump()" data-t="jumpClose">Close</button>
+  </div>
+</div>
+
+<script>
+(function(){
+  const locale=navigator.language||"pt-BR";
+  const lang=locale.split("-")[0];
+
+  const translations={"pt":{"prev":"← Anterior","next":"Próxima →","open":"Abrir tweet original","jumpTitle":"Ir para página","jumpClose":"Fechar","subtitle":"Página dedicada aos melhores heróis do Universo! Todo o acervo de mais de 60 mil publicações da minha conta do \"X\", relacionado a conteúdo de Inteligência Artificial, está disponível abaixo:"},"en":{"prev":"← Previous","next":"Next →","open":"Open original tweet","jumpTitle":"Go to page","jumpClose":"Close","subtitle":"A page dedicated to the best heroes in the Universe! The full archive of more than 60,000 posts from my X account, related to Artificial Intelligence content, is available below:"},"es":{"prev":"← Anterior","next":"Siguiente →","open":"Ver tweet original","jumpTitle":"Ir a la página","jumpClose":"Cerrar","subtitle":"¡Una página dedicada a los mejores héroes del Universo! El archivo completo de más de 60.000 publicaciones de mi cuenta de X, relacionado con contenido de IA, está disponible a continuación:"},"ru":{"prev":"← Предыдущая","next":"Следующая →","open":"Открыть твит","jumpTitle":"Перейти к странице","jumpClose":"Закрыть","subtitle":"Страница, посвящённая лучшим героям Вселенной! Полный архив более 60 000 публикаций из моего аккаунта X, связанных с ИИ, доступен ниже:"},"tr":{"prev":"← Önceki","next":"Sonraki →","open":"Tweeti aç","jumpTitle":"Sayfaya git","jumpClose":"Kapat","subtitle":"Evrenin en iyi kahramanlarına adanmış sayfa! Yapay zeka içeriğiyle ilgili X hesabımdaki 60 binden fazla gönderinin arşivi aşağıdadır:"},"zh":{"prev":"← 上一页","next":"下一页 →","open":"打开推文","jumpTitle":"跳转页面","jumpClose":"关闭","subtitle":"献给宇宙中最伟大英雄的页面！我X账号中超过6万条与人工智能相关的帖子完整存档如下："},"ar":{"prev":"← السابق","next":"التالي →","open":"فتح التغريدة","jumpTitle":"اذهب إلى الصفحة","jumpClose":"إغلاق","subtitle":"صفحة مخصصة لأعظم أبطال الكون! أرشيف أكثر من 60 ألف منشور من حسابي على X حول الذكاء الاصطناعي متاح أدناه:"}};
+
+  const t=translations[lang]||translations.en;
+
+  document.getElementById("subtitle").textContent=t.subtitle;
+
+  document.querySelectorAll("[data-t]").forEach(el=>{
+    const key=el.getAttribute("data-t");
+    if(t[key]) el.textContent=t[key];
+  });
+
+  document.querySelectorAll(".tweet-meta").forEach(el=>{
+    const raw=el.getAttribute("data-date");
+    if(!raw)return;
+    const d=new Date(raw);
+    if(isNaN(d)){el.textContent=raw;return;}
+
+    el.textContent=new Intl.DateTimeFormat(locale,{
+      weekday:"short",
+      year:"numeric",
+      month:"short",
+      day:"2-digit",
+      hour:"2-digit",
+      minute:"2-digit",
+      second:"2-digit"
+    }).format(d);
+  });
+
+  if(lang==="ar"){
+    document.body.style.direction="rtl";
+  }
+})();
+</script>
+
+</body>
+</html>
