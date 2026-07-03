@@ -477,13 +477,30 @@ async function main() {
   const totalPages = Math.ceil(tweets.length / PAGE_SIZE);
 
   for (let i = 0; i < totalPages; i++) {
-    const pageTweets = tweets.slice(i * PAGE_SIZE, (i + 1) * PAGE_SIZE);
-    const html = renderPage(pageTweets, i + 1, totalPages);
+  const pageTweets = tweets.slice(i * PAGE_SIZE, (i + 1) * PAGE_SIZE);
+  const html = renderPage(pageTweets, i + 1, totalPages);
 
-    fs.writeFileSync(path.join(PAGE_DIR, `${i + 1}.html`), html, "utf8");
-  }
+  fs.writeFileSync(path.join(PAGE_DIR, `${i + 1}.html`), html, "utf8");
+}
 
-  console.log("OK:", totalPages);
+fs.writeFileSync(
+  path.join(PUBLIC_DIR, "index.html"),
+  `<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="0; url=/page/1.html">
+<title>Supergirl(MAID)</title>
+</head>
+<body>
+<p>Redirecionando para a página inicial...</p>
+<p><a href="/page/1.html">Clique aqui se o redirecionamento não ocorrer.</a></p>
+</body>
+</html>`,
+  "utf8"
+);
+
+console.log("OK:", totalPages);
 }
 
 main().catch(console.error);
