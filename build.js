@@ -273,7 +273,7 @@ function renderPage(tweets, pageNum, totalPages) {
   const tweetsHtml = tweets.map(renderTweet).join("\n");
 
   const subtitle =
-    "Página dedicada aos melhores heróis do Universo! Todo o acervo de mais de 60 mil publicações da minha conta do \"X\", relacionado a conteúdo de Inteligência Artificial, está disponível abaixo:";
+    "Página dedicada aos melhores heróis do Universo! Todo o acervo de 63.023 publicações da minha conta do \"X\", relacionado a conteúdo de Inteligência Artificial, está disponível abaixo:";
 
   const translations = getTranslations(subtitle);
 
