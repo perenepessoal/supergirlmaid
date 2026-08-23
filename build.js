@@ -393,6 +393,86 @@ function getTranslations(subtitle) {
       jumpClose: "மூடவும்",
       subtitle:
         "பிரபஞ்சத்தின் சிறந்த ஹீரோக்களுக்காக அர்ப்பணிக்கப்பட்ட பக்கம்! எனது X கணக்கில் செயற்கை நுண்ணறிவு தொடர்பான 63 ஆயிரத்துக்கும் மேற்பட்ட பதிவுகளின் முழுமையான காப்பகம் கீழே கிடைக்கிறது:"
+    },
+
+    it: {
+      prev: "← Precedente",
+      next: "Successivo →",
+      open: "Apri il post originale",
+      jumpTitle: "Vai alla pagina",
+      jumpClose: "Chiudi",
+      subtitle:
+        "Una pagina dedicata ai migliori eroi dell'Universo! L'archivio completo di oltre 63 mila post dal mio account X relativi ai contenuti sull'Intelligenza Artificiale è disponibile qui sotto:"
+    },
+
+    pl: {
+      prev: "← Poprzednia",
+      next: "Następna →",
+      open: "Otwórz oryginalny post",
+      jumpTitle: "Przejdź do strony",
+      jumpClose: "Zamknij",
+      subtitle:
+        "Strona poświęcona najlepszym bohaterom Wszechświata! Pełne archiwum ponad 63 tysięcy postów z mojego konta X związanych z treściami dotyczącymi sztucznej inteligencji jest dostępne poniżej:"
+    },
+
+    nl: {
+      prev: "← Vorige",
+      next: "Volgende →",
+      open: "Origineel bericht openen",
+      jumpTitle: "Ga naar pagina",
+      jumpClose: "Sluiten",
+      subtitle:
+        "Een pagina gewijd aan de beste helden van het Universum! Het volledige archief van meer dan 63 duizend berichten van mijn X-account over kunstmatige intelligentie is hieronder beschikbaar:"
+    },
+
+    el: {
+      prev: "← Προηγούμενη",
+      next: "Επόμενη →",
+      open: "Άνοιγμα αρχικής ανάρτησης",
+      jumpTitle: "Μετάβαση στη σελίδα",
+      jumpClose: "Κλείσιμο",
+      subtitle:
+        "Μια σελίδα αφιερωμένη στους καλύτερους ήρωες του Σύμπαντος! Το πλήρες αρχείο με περισσότερες από 63 χιλιάδες αναρτήσεις από τον λογαριασμό μου στο X σχετικά με περιεχόμενο τεχνητής νοημοσύνης είναι διαθέσιμο παρακάτω:"
+    },
+
+    sv: {
+      prev: "← Föregående",
+      next: "Nästa →",
+      open: "Öppna originalinlägget",
+      jumpTitle: "Gå till sida",
+      jumpClose: "Stäng",
+      subtitle:
+        "En sida tillägnad universums bästa hjältar! Det fullständiga arkivet med över 63 tusen inlägg från mitt X-konto om innehåll relaterat till artificiell intelligens finns nedan:"
+    },
+
+    cs: {
+      prev: "← Předchozí",
+      next: "Další →",
+      open: "Otevřít původní příspěvek",
+      jumpTitle: "Přejít na stránku",
+      jumpClose: "Zavřít",
+      subtitle:
+        "Stránka věnovaná nejlepším hrdinům vesmíru! Kompletní archiv více než 63 tisíc příspěvků z mého účtu X souvisejících s obsahem o umělé inteligenci je k dispozici níže:"
+    },
+
+    ro: {
+      prev: "← Anterior",
+      next: "Următoarea →",
+      open: "Deschide postarea originală",
+      jumpTitle: "Mergi la pagina",
+      jumpClose: "Închide",
+      subtitle:
+        "O pagină dedicată celor mai buni eroi ai Universului! Arhiva completă de peste 63 de mii de postări de pe contul meu X despre conținut legat de inteligența artificială este disponibilă mai jos:"
+    },
+
+    hu: {
+      prev: "← Előző",
+      next: "Következő →",
+      open: "Eredeti bejegyzés megnyitása",
+      jumpTitle: "Ugrás az oldalra",
+      jumpClose: "Bezárás",
+      subtitle:
+        "Az Univerzum legjobb hőseinek szentelt oldal! Az X-fiókomból származó, mesterséges intelligenciával kapcsolatos több mint 63 ezer bejegyzés teljes archívuma alább érhető el:"
     }
   };
 }
