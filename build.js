@@ -221,7 +221,7 @@ function getTranslations(subtitle) {
       jumpTitle: "Go to page",
       jumpClose: "Close",
       subtitle:
-        "A page dedicated to the best heroes in the Universe! The full archive of 63,468 posts from my X account, related to Artificial Intelligence content, is available below:"
+        "A page dedicated to the best heroes in the Universe! The full archive of 63,985 posts from my X account, related to Artificial Intelligence content, is available below:"
     },
 
     es: {
@@ -231,7 +231,7 @@ function getTranslations(subtitle) {
       jumpTitle: "Ir a página",
       jumpClose: "Cerrar",
       subtitle:
-        "¡Una página dedicada a los mejores héroes del Universo! El archivo completo de 63.468 publicaciones de mi cuenta de X, relacionado con contenido de IA, está disponible a continuación:"
+        "¡Una página dedicada a los mejores héroes del Universo! El archivo completo de 63.985 publicaciones de mi cuenta de X, relacionado con contenido de IA, está disponible a continuación:"
     },
 
     ru: {
@@ -492,7 +492,7 @@ function renderPage(tweets, pageNum, totalPages) {
   const tweetsHtml = tweets.map(renderTweet).join("\n");
 
   const subtitle =
-    "Página dedicada aos melhores heróis do Universo! Todo o acervo de 63.468 publicações da minha conta do \"X\", relacionado a conteúdo de Inteligência Artificial, está disponível abaixo:";
+    "Página dedicada aos melhores heróis do Universo! Todo o acervo de 63.985 publicações da minha conta do \"X\", relacionado a conteúdo de Inteligência Artificial, está disponível abaixo:";
 
   const translations = getTranslations(subtitle);
 
