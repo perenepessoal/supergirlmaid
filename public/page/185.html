@@ -10,7 +10,7 @@
 *{box-sizing:border-box}
 
 body{
-  font-family: Arial, sans-serif;
+  font-family:Arial,sans-serif;
   background:#eee;
   margin:0 auto;
   max-width:1400px;
@@ -35,7 +35,7 @@ body{
 
 .tweets-container{
   display:grid;
-  grid-template-columns:repeat(2, minmax(0, 1fr));
+  grid-template-columns:repeat(2,minmax(0,1fr));
   gap:12px;
 }
 
@@ -103,16 +103,23 @@ img,video{
 </style>
 
 <script>
-function openJump(){document.getElementById("jumpModal").style.display="flex";}
-function closeJump(){document.getElementById("jumpModal").style.display="none";}
+function openJump(){
+  document.getElementById("jumpModal").style.display="flex";
+}
+
+function closeJump(){
+  document.getElementById("jumpModal").style.display="none";
+}
 
 var totalPagesGlobal=1287;
 var pageNumGlobal=185;
 
 function goPage(){
   const p=parseInt(document.getElementById("pageInput").value,10);
+
   if(!p||p<1||p>totalPagesGlobal)return;
   if(p===pageNumGlobal)return;
+
   window.location.href=p+".html";
 }
 </script>
@@ -138,8 +145,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041512354685362176/img/a5GBTC0rmtisSVYe.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041512354685362176%2Fvid%2Favc1%2F540x720%2FSXTXwFTkPqsyPYqm.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041512354685362176%2Fvid%2Favc1%2F540x720%2FSXTXwFTkPqsyPYqm.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -159,8 +166,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041512227807895552/img/o9z02BmKHBpN9baS.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041512227807895552%2Fvid%2Favc1%2F720x720%2F60oawE4J2akqXX7C.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041512227807895552%2Fvid%2Favc1%2F720x720%2F60oawE4J2akqXX7C.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -180,8 +187,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041511945908494336/img/QP3_jHfUS01z6jp7.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041511945908494336%2Fvid%2Favc1%2F720x720%2FpSBgtSh3slMH-ln4.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041511945908494336%2Fvid%2Favc1%2F720x720%2FpSBgtSh3slMH-ln4.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -201,8 +208,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041511893429620736/img/PVICoBasqboRINMP.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041511893429620736%2Fvid%2Favc1%2F720x720%2F_Fu_nt0Pc94kdZFH.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041511893429620736%2Fvid%2Favc1%2F720x720%2F_Fu_nt0Pc94kdZFH.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -222,8 +229,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041511826631094272/img/odGLwlGNgTN2fceU.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041511826631094272%2Fvid%2Favc1%2F720x720%2Fm27swwU_9OsccCBI.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041511826631094272%2Fvid%2Favc1%2F720x720%2Fm27swwU_9OsccCBI.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -243,8 +250,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041511690660093952/img/p_artqjRziBsGkH1.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041511690660093952%2Fvid%2Favc1%2F720x720%2FUPFlu1Ef-Db0gErG.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041511690660093952%2Fvid%2Favc1%2F720x720%2FUPFlu1Ef-Db0gErG.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -264,8 +271,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041511633873510400/img/I1RR4PTBrMipjtx1.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041511633873510400%2Fvid%2Favc1%2F720x720%2F8xAg2uV-ZVcug8D_.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041511633873510400%2Fvid%2Favc1%2F720x720%2F8xAg2uV-ZVcug8D_.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -285,8 +292,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041511276845924352/img/eSgfft21Rg0n7o9X.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041511276845924352%2Fvid%2Favc1%2F540x720%2FUY5RsRCvo8t61krv.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041511276845924352%2Fvid%2Favc1%2F540x720%2FUY5RsRCvo8t61krv.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -306,8 +313,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041511250161520640/img/xGAt4s10M42n732f.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041511250161520640%2Fvid%2Favc1%2F540x720%2FNgTCK1tGz2ef-DFW.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041511250161520640%2Fvid%2Favc1%2F540x720%2FNgTCK1tGz2ef-DFW.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -327,8 +334,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041510887932993536/img/cdKN-l40vuCcJ_ac.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041510887932993536%2Fvid%2Favc1%2F720x720%2FgcSFC3u0f2x103NE.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041510887932993536%2Fvid%2Favc1%2F720x720%2FgcSFC3u0f2x103NE.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -348,8 +355,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041510757783965696/img/E62mgn6_7QkjuZL5.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041510757783965696%2Fvid%2Favc1%2F720x720%2FBndkmCqF05k5dD_9.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041510757783965696%2Fvid%2Favc1%2F720x720%2FBndkmCqF05k5dD_9.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -369,8 +376,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041510640985214976/img/xqy1R6yIBlnsdUi1.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041510640985214976%2Fvid%2Favc1%2F720x720%2Fqw87T58sfbZWZfDJ.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041510640985214976%2Fvid%2Favc1%2F720x720%2Fqw87T58sfbZWZfDJ.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -390,8 +397,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041510583279710208/img/n9KiywwuccGQJtJI.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041510583279710208%2Fvid%2Favc1%2F720x720%2FKcxlJMZ03vZaKAmr.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041510583279710208%2Fvid%2Favc1%2F720x720%2FKcxlJMZ03vZaKAmr.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -411,8 +418,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041510295734980608/img/dR9-b3wdvGoWHJEC.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041510295734980608%2Fvid%2Favc1%2F720x720%2FwA00-nTcFJZu6-Xt.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041510295734980608%2Fvid%2Favc1%2F720x720%2FwA00-nTcFJZu6-Xt.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -432,8 +439,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041510264391036929/img/EdOjOQ3RHjVjnQl3.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041510264391036929%2Fvid%2Favc1%2F720x720%2FtjOot4aSIMVcqt6P.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041510264391036929%2Fvid%2Favc1%2F720x720%2FtjOot4aSIMVcqt6P.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -453,8 +460,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041509961000173568/img/dIK_k8oZ4GwQ-LZm.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041509961000173568%2Fvid%2Favc1%2F720x720%2FRLjxEWiIy3kAubhw.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041509961000173568%2Fvid%2Favc1%2F720x720%2FRLjxEWiIy3kAubhw.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -474,8 +481,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041509907942297601/img/Ztpn3U3p5LTBrrF1.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041509907942297601%2Fvid%2Favc1%2F720x720%2FjYYkDSAw97wMFFmG.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041509907942297601%2Fvid%2Favc1%2F720x720%2FjYYkDSAw97wMFFmG.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -495,8 +502,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041509766971695104/img/1sJBqCi4Thmcctd9.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041509766971695104%2Fvid%2Favc1%2F720x720%2FyYv8ED16i9gYZff9.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041509766971695104%2Fvid%2Favc1%2F720x720%2FyYv8ED16i9gYZff9.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -516,8 +523,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041509667222781952/img/Qq2817zikMkwRNtb.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041509667222781952%2Fvid%2Favc1%2F960x720%2FVLUJg7rfTDFo3RGU.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041509667222781952%2Fvid%2Favc1%2F960x720%2FVLUJg7rfTDFo3RGU.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -537,8 +544,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041509487689990144/img/8UP8lw8ZLt0Jmtme.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041509487689990144%2Fvid%2Favc1%2F720x720%2F0RR94EzPBPAxDjla.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041509487689990144%2Fvid%2Favc1%2F720x720%2F0RR94EzPBPAxDjla.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -558,8 +565,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041509388599611392/img/MUpuxrRFd7OiKJ9G.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041509388599611392%2Fvid%2Favc1%2F720x720%2F0p7IUInS4tWu8mAL.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041509388599611392%2Fvid%2Favc1%2F720x720%2F0p7IUInS4tWu8mAL.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -579,8 +586,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041509330436960256/img/Za-8QbtnjVZ8Jbar.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041509330436960256%2Fvid%2Favc1%2F720x720%2F4jiXDOjLqT9PxNWk.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041509330436960256%2Fvid%2Favc1%2F720x720%2F4jiXDOjLqT9PxNWk.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -600,8 +607,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041509179400048641/img/ILEuukEKCyL9AMBR.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041509179400048641%2Fvid%2Favc1%2F720x720%2F1plAmsvhqrgSR55m.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041509179400048641%2Fvid%2Favc1%2F720x720%2F1plAmsvhqrgSR55m.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -621,8 +628,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041509155165655040/img/q10HMRkBWzIvfwXv.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041509155165655040%2Fvid%2Favc1%2F720x720%2F2Y1wE2ik_CPHUZzw.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041509155165655040%2Fvid%2Favc1%2F720x720%2F2Y1wE2ik_CPHUZzw.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -642,8 +649,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041508777908690944/img/8v5a-bRYBY8qvI9w.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041508777908690944%2Fvid%2Favc1%2F720x720%2FBaz_a1ws4_A4vuSE.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041508777908690944%2Fvid%2Favc1%2F720x720%2FBaz_a1ws4_A4vuSE.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -663,8 +670,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041508755028717568/img/dCHqFk5_lB5pHajL.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041508755028717568%2Fvid%2Favc1%2F720x720%2FTNNvm5rdsBvNeMrq.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041508755028717568%2Fvid%2Favc1%2F720x720%2FTNNvm5rdsBvNeMrq.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -684,8 +691,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041508559708377088/img/cnuD2WpxkFAXjsoo.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041508559708377088%2Fvid%2Favc1%2F720x720%2FE-majJ6BqWLOs4LZ.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041508559708377088%2Fvid%2Favc1%2F720x720%2FE-majJ6BqWLOs4LZ.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -705,8 +712,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041508543233458176/img/dxH8k6Y7xqcL4Tko.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041508543233458176%2Fvid%2Favc1%2F720x720%2FB6JrguQMADETzGI7.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041508543233458176%2Fvid%2Favc1%2F720x720%2FB6JrguQMADETzGI7.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -726,8 +733,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041508426401116160/img/9vUXNkzdqNISgEb0.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041508426401116160%2Fvid%2Favc1%2F720x720%2FQtNeAdQW4SUO6Uan.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041508426401116160%2Fvid%2Favc1%2F720x720%2FQtNeAdQW4SUO6Uan.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -747,8 +754,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041508354816954368/img/IB08jjLH_PrV3Zzp.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041508354816954368%2Fvid%2Favc1%2F720x720%2F1nT6aNKjwLniPe4G.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041508354816954368%2Fvid%2Favc1%2F720x720%2F1nT6aNKjwLniPe4G.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -768,8 +775,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041507851605307392/img/6KbW9YJS3jP4QWIM.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041507851605307392%2Fvid%2Favc1%2F720x720%2FOdaKqymRCAsHu3Xu.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041507851605307392%2Fvid%2Favc1%2F720x720%2FOdaKqymRCAsHu3Xu.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -789,8 +796,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041507770936053760/img/6pqhDEw5OgS1OEC-.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041507770936053760%2Fvid%2Favc1%2F720x720%2Fb3yVGSLSXW4zWyfZ.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041507770936053760%2Fvid%2Favc1%2F720x720%2Fb3yVGSLSXW4zWyfZ.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -810,8 +817,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041507715931852800/img/fAmCVL4FX9_vsyux.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041507715931852800%2Fvid%2Favc1%2F720x720%2F_Z7KGvwSU1N34WbJ.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041507715931852800%2Fvid%2Favc1%2F720x720%2F_Z7KGvwSU1N34WbJ.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -831,8 +838,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041507510108987392/img/AUg9OAtz5-6DYjEV.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041507510108987392%2Fvid%2Favc1%2F720x720%2FAtTajM8JqPS8Ix4k.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041507510108987392%2Fvid%2Favc1%2F720x720%2FAtTajM8JqPS8Ix4k.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -852,8 +859,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041507343167545345/img/cCUqet7KaHYcxfzD.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041507343167545345%2Fvid%2Favc1%2F720x720%2FKF2W1IhKOh-Ckxta.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041507343167545345%2Fvid%2Favc1%2F720x720%2FKF2W1IhKOh-Ckxta.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -873,8 +880,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041507198262726656/img/pFye4SZP5E3wyuru.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041507198262726656%2Fvid%2Favc1%2F720x720%2FnJimemikL7WdB_RK.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041507198262726656%2Fvid%2Favc1%2F720x720%2FnJimemikL7WdB_RK.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -894,8 +901,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041507134697840641/img/Ce2bviBXtLNHLEZl.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041507134697840641%2Fvid%2Favc1%2F720x720%2FwP7R0GcawWOd5TLp.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041507134697840641%2Fvid%2Favc1%2F720x720%2FwP7R0GcawWOd5TLp.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -915,8 +922,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041506712499126273/img/zosnyciMrpy2uHHB.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041506712499126273%2Fvid%2Favc1%2F720x720%2FORGeaUxyW2Lznuo0.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041506712499126273%2Fvid%2Favc1%2F720x720%2FORGeaUxyW2Lznuo0.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -936,8 +943,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041506663216107521/img/Gm1KD-svUqr1fwTd.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041506663216107521%2Fvid%2Favc1%2F720x720%2FRAt6GJSFvJViqeuB.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041506663216107521%2Fvid%2Favc1%2F720x720%2FRAt6GJSFvJViqeuB.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -957,8 +964,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041506619385659392/img/vPwgBsNDBZkJXSO4.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041506619385659392%2Fvid%2Favc1%2F720x720%2FDlGxj38L58aHBqWR.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041506619385659392%2Fvid%2Favc1%2F720x720%2FDlGxj38L58aHBqWR.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -978,8 +985,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041506120616071168/img/7eB5POuf4QTr_z2m.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041506120616071168%2Fvid%2Favc1%2F720x720%2F4AQDqiOcsdU1-56m.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041506120616071168%2Fvid%2Favc1%2F720x720%2F4AQDqiOcsdU1-56m.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -999,8 +1006,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041506075476738048/img/u2JpxolHxXHnLN-Z.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041506075476738048%2Fvid%2Favc1%2F720x720%2FQD-iXrlrQF4-dL3C.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041506075476738048%2Fvid%2Favc1%2F720x720%2FQD-iXrlrQF4-dL3C.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -1020,8 +1027,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041505810203963392/img/ipsvaZDMJAyJgDYa.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041505810203963392%2Fvid%2Favc1%2F720x720%2FMMXG8YfazMifNt16.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041505810203963392%2Fvid%2Favc1%2F720x720%2FMMXG8YfazMifNt16.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -1041,8 +1048,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041505734051966976/img/975qCSVoQhVqT4wN.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041505734051966976%2Fvid%2Favc1%2F720x720%2FAGgpluClc9frNeyR.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041505734051966976%2Fvid%2Favc1%2F720x720%2FAGgpluClc9frNeyR.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -1062,8 +1069,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041505660861390848/img/Jeh25t_b97HW3LUN.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041505660861390848%2Fvid%2Favc1%2F720x720%2FbUsyDBO--zyvajbN.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041505660861390848%2Fvid%2Favc1%2F720x720%2FbUsyDBO--zyvajbN.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -1083,8 +1090,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041505245860376576/img/wrarJENTx7eFH0j5.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041505245860376576%2Fvid%2Favc1%2F720x720%2Fipefwu4qizZNAfAU.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041505245860376576%2Fvid%2Favc1%2F720x720%2Fipefwu4qizZNAfAU.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -1104,8 +1111,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041504508946137088/img/feCLLlnzRoG9scpC.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041504508946137088%2Fvid%2Favc1%2F720x720%2FC2F3lAwgPLeDxKbD.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041504508946137088%2Fvid%2Favc1%2F720x720%2FC2F3lAwgPLeDxKbD.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -1125,8 +1132,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041504431930253312/img/eotfh2q-WPW3zXWI.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041504431930253312%2Fvid%2Favc1%2F720x720%2FzW9-esshjLrclg2f.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041504431930253312%2Fvid%2Favc1%2F720x720%2FzW9-esshjLrclg2f.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -1146,8 +1153,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041504355007033344/img/p2d1z1bi_k6Ob8dc.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041504355007033344%2Fvid%2Favc1%2F720x720%2FXY3coIRZBaYLuj6X.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041504355007033344%2Fvid%2Favc1%2F720x720%2FXY3coIRZBaYLuj6X.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -1167,8 +1174,8 @@ function goPage(){
       <div class="media-grid">
           <div class="media-item">
             <video controls preload="metadata" poster="https://pbs.twimg.com/amplify_video_thumb/2041504272181866496/img/svdodThl32MKXuZ9.jpg">
-  <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041504272181866496%2Fvid%2Favc1%2F720x720%2FvRKvpipkEBccww4G.mp4%3Ftag%3D14" type="video/mp4">
-</video>
+              <source src="/video?url=https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2041504272181866496%2Fvid%2Favc1%2F720x720%2FvRKvpipkEBccww4G.mp4%3Ftag%3D14" type="video/mp4">
+            </video>
           </div>
         </div>
 
@@ -1184,7 +1191,13 @@ function goPage(){
 <div id="jumpModal">
   <div id="jumpBox">
     <p data-t="jumpTitle">Go to page</p>
-    <input id="pageInput" type="number" min="1" max="1287" onkeydown="if(event.key === 'Enter') goPage()">
+    <input
+      id="pageInput"
+      type="number"
+      min="1"
+      max="1287"
+      onkeydown="if(event.key === 'Enter') goPage()"
+    >
     <button onclick="goPage()">OK</button>
     <button onclick="closeJump()" data-t="jumpClose">Close</button>
   </div>
@@ -1195,7 +1208,7 @@ function goPage(){
   const locale=navigator.language||"pt-BR";
   const lang=locale.split("-")[0];
 
-  const translations={"pt":{"prev":"← Anterior","next":"Próxima →","open":"Abrir tweet original","jumpTitle":"Ir para página","jumpClose":"Fechar","subtitle":"Página dedicada aos melhores heróis do Universo! Todo o acervo de 63.985 publicações da minha conta do \"X\", relacionado a conteúdo de Inteligência Artificial, está disponível abaixo:"},"en":{"prev":"← Previous","next":"Next →","open":"Open original tweet","jumpTitle":"Go to page","jumpClose":"Close","subtitle":"A page dedicated to the best heroes in the Universe! The full archive of 63,985 posts from my X account, related to Artificial Intelligence content, is available below:"},"es":{"prev":"← Anterior","next":"Siguiente →","open":"Ver tweet original","jumpTitle":"Ir a página","jumpClose":"Cerrar","subtitle":"¡Una página dedicada a los mejores héroes del Universo! El archivo completo de 63.985 publicaciones de mi cuenta de X, relacionado con contenido de IA, está disponible a continuación:"},"ru":{"prev":"← Предыдущая","next":"Следующая →","open":"Открыть твит","jumpTitle":"Перейти к странице","jumpClose":"Закрыть","subtitle":"Страница, посвящённая лучшим героям Вселенной! Полный архив более 63 000 публикаций из моего аккаунта X, связанных с ИИ, доступен ниже:"},"tr":{"prev":"← Önceki","next":"Sonraki →","open":"Tweeti aç","jumpTitle":"Sayfaya git","jumpClose":"Kapat","subtitle":"Evrenin en iyi kahramanlarına adanmış sayfa! Yapay zeka içeriğiyle ilgili X hesabımdaki 63 binden fazla gönderinin arşivi aşağıdadır:"},"zh":{"prev":"← 上一页","next":"下一页 →","open":"打开推文","jumpTitle":"跳转页面","jumpClose":"关闭","subtitle":"献给宇宙中最伟大英雄的页面！我X账号中超过6.3万条与人工智能相关的帖子完整存档如下:"},"ar":{"prev":"← السابق","next":"التالي →","open":"فتح التغريدة","jumpTitle":"اذهب إلى الصفحة","jumpClose":"إغلاق","subtitle":"صفحة مخصصة لأعظم أبطال الكون! أرشيف أكثر من 63 ألف منشور من حسابي على X حول الذكاء الاصطناعي متاح أدناه:"},"hi":{"prev":"← पिछला","next":"अगला →","open":"मूल ट्वीट खोलें","jumpTitle":"पृष्ठ पर जाएँ","jumpClose":"बंद करें","subtitle":"ब्रह्मांड के सर्वश्रेष्ठ नायकों को समर्पित एक पृष्ठ! मेरे X खाते से कृत्रिम बुद्धिमत्ता से संबंधित 63 हज़ार से अधिक पोस्ट का पूरा संग्रह नीचे उपलब्ध है:"},"bn":{"prev":"← পূর্ববর্তী","next":"পরবর্তী →","open":"মূল পোস্ট খুলুন","jumpTitle":"পৃষ্ঠায় যান","jumpClose":"বন্ধ করুন","subtitle":"মহাবিশ্বের সেরা নায়কদের জন্য নিবেদিত একটি পৃষ্ঠা! আমার X অ্যাকাউন্টের কৃত্রিম বুদ্ধিমত্তা সম্পর্কিত ৬৩ হাজারেরও বেশি পোস্টের সম্পূর্ণ সংরক্ষণাগার নিচে রয়েছে:"},"ja":{"prev":"← 前へ","next":"次へ →","open":"元のポストを開く","jumpTitle":"ページへ移動","jumpClose":"閉じる","subtitle":"宇宙で最高のヒーローたちに捧げるページです！私のXアカウントにある人工知能関連の6万3千件以上の投稿を完全にアーカイブしています。以下からご覧いただけます："},"lah":{"prev":"← پچھلا","next":"اگلا →","open":"اصل ٹویٹ کھولو","jumpTitle":"صفحے تے جاؤ","jumpClose":"بند کرو","subtitle":"کائنات دے بہترین ہیروز لئی وقف صفحہ! میرے X اکاؤنٹ دیاں مصنوعی ذہانت نال متعلق 63 ہزار توں ودھ پوسٹاں دا مکمل آرکائیو ہیٹھاں موجود اے:"},"jv":{"prev":"← Sadurunge","next":"Sabanjuré →","open":"Bukak kiriman asli","jumpTitle":"Menyang kaca","jumpClose":"Tutup","subtitle":"Kaca sing dikhususake kanggo para pahlawan paling apik ing Alam Semesta! Arsip lengkap luwih saka 63 ewu kiriman saka akun X-ku sing gegayutan karo konten Kecerdasan Buatan kasedhiya ing ngisor iki:"},"ko":{"prev":"← 이전","next":"다음 →","open":"원본 게시물 열기","jumpTitle":"페이지로 이동","jumpClose":"닫기","subtitle":"우주 최고의 영웅들을 위한 페이지입니다! 제 X 계정에 있는 인공지능 관련 게시물 6만 3천 개 이상의 전체 아카이브를 아래에서 확인할 수 있습니다:"},"de":{"prev":"← Zurück","next":"Weiter →","open":"Originalen Beitrag öffnen","jumpTitle":"Zu Seite gehen","jumpClose":"Schließen","subtitle":"Eine Seite, die den besten Helden des Universums gewidmet ist! Das vollständige Archiv von mehr als 63.000 Beiträgen aus meinem X-Konto zum Thema Künstliche Intelligenz ist unten verfügbar:"},"fr":{"prev":"← Précédent","next":"Suivant →","open":"Ouvrir le post original","jumpTitle":"Aller à la page","jumpClose":"Fermer","subtitle":"Une page dédiée aux meilleurs héros de l’Univers ! L’archive complète de plus de 63 000 publications de mon compte X liées au contenu sur l’intelligence artificielle est disponible ci-dessous :"},"te":{"prev":"← మునుపటి","next":"తదుపరి →","open":"అసలు పోస్ట్‌ను తెరవండి","jumpTitle":"పేజీకి వెళ్లండి","jumpClose":"మూసివేయండి","subtitle":"విశ్వంలోని అత్యుత్తమ హీరోలకు అంకితమైన పేజీ! నా X ఖాతాలో కృత్రిమ మేధస్సుకు సంబంధించిన 63 వేల కంటే ఎక్కువ పోస్ట్‌ల పూర్తి ఆర్కైవ్ క్రింద అందుబాటులో ఉంది:"},"mr":{"prev":"← मागील","next":"पुढील →","open":"मूळ पोस्ट उघडा","jumpTitle":"पृष्ठावर जा","jumpClose":"बंद करा","subtitle":"विश्वातील सर्वोत्तम नायकांना समर्पित पृष्ठ! माझ्या X खात्यावरील कृत्रिम बुद्धिमत्तेशी संबंधित 63 हजारांहून अधिक पोस्टचे संपूर्ण संग्रहण खाली उपलब्ध आहे:"},"ur":{"prev":"← پچھلا","next":"اگلا →","open":"اصل پوسٹ کھولیں","jumpTitle":"صفحے پر جائیں","jumpClose":"بند کریں","subtitle":"کائنات کے بہترین ہیروز کے لیے وقف ایک صفحہ! میرے X اکاؤنٹ پر مصنوعی ذہانت سے متعلق 63 ہزار سے زیادہ پوسٹس کا مکمل آرکائیو ذیل میں دستیاب ہے:"},"vi":{"prev":"← Trước","next":"Tiếp →","open":"Mở bài đăng gốc","jumpTitle":"Đi đến trang","jumpClose":"Đóng","subtitle":"Một trang dành riêng cho những anh hùng tuyệt vời nhất trong Vũ trụ! Kho lưu trữ đầy đủ hơn 63 nghìn bài đăng từ tài khoản X của tôi liên quan đến nội dung Trí tuệ Nhân tạo có sẵn bên dưới:"},"ta":{"prev":"← முந்தையது","next":"அடுத்தது →","open":"அசல் பதிவைத் திறக்கவும்","jumpTitle":"பக்கத்திற்குச் செல்லவும்","jumpClose":"மூடவும்","subtitle":"பிரபஞ்சத்தின் சிறந்த ஹீரோக்களுக்காக அர்ப்பணிக்கப்பட்ட பக்கம்! எனது X கணக்கில் செயற்கை நுண்ணறிவு தொடர்பான 63 ஆயிரத்துக்கும் மேற்பட்ட பதிவுகளின் முழுமையான காப்பகம் கீழே கிடைக்கிறது:"},"it":{"prev":"← Precedente","next":"Successivo →","open":"Apri il post originale","jumpTitle":"Vai alla pagina","jumpClose":"Chiudi","subtitle":"Una pagina dedicata ai migliori eroi dell'Universo! L'archivio completo di oltre 63 mila post dal mio account X relativi ai contenuti sull'Intelligenza Artificiale è disponibile qui sotto:"},"pl":{"prev":"← Poprzednia","next":"Następna →","open":"Otwórz oryginalny post","jumpTitle":"Przejdź do strony","jumpClose":"Zamknij","subtitle":"Strona poświęcona najlepszym bohaterom Wszechświata! Pełne archiwum ponad 63 tysięcy postów z mojego konta X związanych z treściami dotyczącymi sztucznej inteligencji jest dostępne poniżej:"},"nl":{"prev":"← Vorige","next":"Volgende →","open":"Origineel bericht openen","jumpTitle":"Ga naar pagina","jumpClose":"Sluiten","subtitle":"Een pagina gewijd aan de beste helden van het Universum! Het volledige archief van meer dan 63 duizend berichten van mijn X-account over kunstmatige intelligentie is hieronder beschikbaar:"},"el":{"prev":"← Προηγούμενη","next":"Επόμενη →","open":"Άνοιγμα αρχικής ανάρτησης","jumpTitle":"Μετάβαση στη σελίδα","jumpClose":"Κλείσιμο","subtitle":"Μια σελίδα αφιερωμένη στους καλύτερους ήρωες του Σύμπαντος! Το πλήρες αρχείο με περισσότερες από 63 χιλιάδες αναρτήσεις από τον λογαριασμό μου στο X σχετικά με περιεχόμενο τεχνητής νοημοσύνης είναι διαθέσιμο παρακάτω:"},"sv":{"prev":"← Föregående","next":"Nästa →","open":"Öppna originalinlägget","jumpTitle":"Gå till sida","jumpClose":"Stäng","subtitle":"En sida tillägnad universums bästa hjältar! Det fullständiga arkivet med över 63 tusen inlägg från mitt X-konto om innehåll relaterat till artificiell intelligens finns nedan:"},"cs":{"prev":"← Předchozí","next":"Další →","open":"Otevřít původní příspěvek","jumpTitle":"Přejít na stránku","jumpClose":"Zavřít","subtitle":"Stránka věnovaná nejlepším hrdinům vesmíru! Kompletní archiv více než 63 tisíc příspěvků z mého účtu X souvisejících s obsahem o umělé inteligenci je k dispozici níže:"},"ro":{"prev":"← Anterior","next":"Următoarea →","open":"Deschide postarea originală","jumpTitle":"Mergi la pagina","jumpClose":"Închide","subtitle":"O pagină dedicată celor mai buni eroi ai Universului! Arhiva completă de peste 63 de mii de postări de pe contul meu X despre conținut legat de inteligența artificială este disponibilă mai jos:"},"hu":{"prev":"← Előző","next":"Következő →","open":"Eredeti bejegyzés megnyitása","jumpTitle":"Ugrás az oldalra","jumpClose":"Bezárás","subtitle":"Az Univerzum legjobb hőseinek szentelt oldal! Az X-fiókomból származó, mesterséges intelligenciával kapcsolatos több mint 63 ezer bejegyzés teljes archívuma alább érhető el:"}};
+  const translations={"pt":{"prev":"← Anterior","next":"Próxima →","open":"Abrir tweet original","jumpTitle":"Ir para página","jumpClose":"Fechar","subtitle":"Página dedicada aos melhores heróis do Universo! Todo o acervo de 64.341 publicações da minha conta do \"X\", relacionado a conteúdo de Inteligência Artificial, está disponível abaixo:"},"en":{"prev":"← Previous","next":"Next →","open":"Open original tweet","jumpTitle":"Go to page","jumpClose":"Close","subtitle":"A page dedicated to the best heroes in the Universe! The full archive of 64,341 posts from my X account, related to Artificial Intelligence content, is available below:"},"es":{"prev":"← Anterior","next":"Siguiente →","open":"Ver tweet original","jumpTitle":"Ir a página","jumpClose":"Cerrar","subtitle":"¡Una página dedicada a los mejores héroes del Universo! El archivo completo de 64.341 publicaciones de mi cuenta de X, relacionado con contenido de IA, está disponible a continuación:"},"ru":{"prev":"← Предыдущая","next":"Следующая →","open":"Открыть твит","jumpTitle":"Перейти к странице","jumpClose":"Закрыть","subtitle":"Страница, посвящённая лучшим героям Вселенной! Полный архив более 64 000 публикаций из моего аккаунта X, связанных с ИИ, доступен ниже:"},"tr":{"prev":"← Önceki","next":"Sonraki →","open":"Tweeti aç","jumpTitle":"Sayfaya git","jumpClose":"Kapat","subtitle":"Evrenin en iyi kahramanlarına adanmış sayfa! Yapay zeka içeriğiyle ilgili X hesabımdaki 64 binden fazla gönderinin arşivi aşağıdadır:"},"zh":{"prev":"← 上一页","next":"下一页 →","open":"打开推文","jumpTitle":"跳转页面","jumpClose":"关闭","subtitle":"献给宇宙中最伟大英雄的页面！我X账号中超过6.4万条与人工智能相关的帖子完整存档如下:"},"ar":{"prev":"← السابق","next":"التالي →","open":"فتح التغريدة","jumpTitle":"اذهب إلى الصفحة","jumpClose":"إغلاق","subtitle":"صفحة مخصصة لأعظم أبطال الكون! أرشيف أكثر من 64 ألف منشور من حسابي على X حول الذكاء الاصطناعي متاح أدناه:"},"hi":{"prev":"← पिछला","next":"अगला →","open":"मूल ट्वीट खोलें","jumpTitle":"पृष्ठ पर जाएँ","jumpClose":"बंद करें","subtitle":"ब्रह्मांड के सर्वश्रेष्ठ नायकों को समर्पित एक पृष्ठ! मेरे X खाते से कृत्रिम बुद्धिमत्ता से संबंधित 64 हज़ार से अधिक पोस्ट का पूरा संग्रह नीचे उपलब्ध है:"},"bn":{"prev":"← পূর্ববর্তী","next":"পরবর্তী →","open":"মূল পোস্ট খুলুন","jumpTitle":"পৃষ্ঠায় যান","jumpClose":"বন্ধ করুন","subtitle":"মহাবিশ্বের সেরা নায়কদের জন্য নিবেদিত একটি পৃষ্ঠা! আমার X অ্যাকাউন্টের কৃত্রিম বুদ্ধিমত্তা সম্পর্কিত ৬৪ হাজারেরও বেশি পোস্টের সম্পূর্ণ সংরক্ষণাগার নিচে রয়েছে:"},"ja":{"prev":"← 前へ","next":"次へ →","open":"元のポストを開く","jumpTitle":"ページへ移動","jumpClose":"閉じる","subtitle":"宇宙で最高のヒーローたちに捧げるページです！私のXアカウントにある人工知能関連の6万4千件以上の投稿を完全にアーカイブしています。以下からご覧いただけます："},"lah":{"prev":"← پچھلا","next":"اگلا →","open":"اصل ٹویٹ کھولو","jumpTitle":"صفحے تے جاؤ","jumpClose":"بند کرو","subtitle":"کائنات دے بہترین ہیروز لئی وقف صفحہ! میرے X اکاؤنٹ دیاں مصنوعی ذہانت نال متعلق 64 ہزار توں ودھ پوسٹاں دا مکمل آرکائیو ہیٹھاں موجود اے:"},"jv":{"prev":"← Sadurunge","next":"Sabanjuré →","open":"Bukak kiriman asli","jumpTitle":"Menyang kaca","jumpClose":"Tutup","subtitle":"Kaca sing dikhususake kanggo para pahlawan paling apik ing Alam Semesta! Arsip lengkap luwih saka 64 ewu kiriman saka akun X-ku sing gegayutan karo konten Kecerdasan Buatan kasedhiya ing ngisor iki:"},"ko":{"prev":"← 이전","next":"다음 →","open":"원본 게시물 열기","jumpTitle":"페이지로 이동","jumpClose":"닫기","subtitle":"우주 최고의 영웅들을 위한 페이지입니다! 제 X 계정에 있는 인공지능 관련 게시물 6만 4천 개 이상의 전체 아카이브를 아래에서 확인할 수 있습니다:"},"de":{"prev":"← Zurück","next":"Weiter →","open":"Originalen Beitrag öffnen","jumpTitle":"Zu Seite gehen","jumpClose":"Schließen","subtitle":"Eine Seite, die den besten Helden des Universums gewidmet ist! Das vollständige Archiv von mehr als 64.000 Beiträgen aus meinem X-Konto zum Thema Künstliche Intelligenz ist unten verfügbar:"},"fr":{"prev":"← Précédent","next":"Suivant →","open":"Ouvrir le post original","jumpTitle":"Aller à la page","jumpClose":"Fermer","subtitle":"Une page dédiée aux meilleurs héros de l’Univers ! L’archive complète de plus de 64 000 publications de mon compte X liées au contenu sur l’intelligence artificielle est disponible ci-dessous :"},"te":{"prev":"← మునుపటి","next":"తదుపరి →","open":"అసలు పోస్ట్‌ను తెరవండి","jumpTitle":"పేజీకి వెళ్లండి","jumpClose":"మూసివేయండి","subtitle":"విశ్వంలోని అత్యుత్తమ హీరోలకు అంకితమైన పేజీ! నా X ఖాతాలో కృత్రిమ మేధస్సుకు సంబంధించిన 64 వేల కంటే ఎక్కువ పోస్ట్‌ల పూర్తి ఆర్కైవ్ క్రింద అందుబాటులో ఉంది:"},"mr":{"prev":"← मागील","next":"पुढील →","open":"मूळ पोस्ट उघडा","jumpTitle":"पृष्ठावर जा","jumpClose":"बंद करा","subtitle":"विश्वातील सर्वोत्तम नायकांना समर्पित पृष्ठ! माझ्या X खात्यावरील कृत्रिम बुद्धिमत्तेशी संबंधित 64 हजारांहून अधिक पोस्टचे संपूर्ण संग्रहण खाली उपलब्ध आहे:"},"ur":{"prev":"← پچھلا","next":"اگلا →","open":"اصل پوسٹ کھولیں","jumpTitle":"صفحے پر جائیں","jumpClose":"بند کریں","subtitle":"کائنات کے بہترین ہیروز کے لیے وقف ایک صفحہ! میرے X اکاؤنٹ پر مصنوعی ذہانت سے متعلق 64 ہزار سے زیادہ پوسٹس کا مکمل آرکائیو ذیل میں دستیاب ہے:"},"vi":{"prev":"← Trước","next":"Tiếp →","open":"Mở bài đăng gốc","jumpTitle":"Đi đến trang","jumpClose":"Đóng","subtitle":"Một trang dành riêng cho những anh hùng tuyệt vời nhất trong Vũ trụ! Kho lưu trữ đầy đủ hơn 64 nghìn bài đăng từ tài khoản X của tôi liên quan đến nội dung Trí tuệ Nhân tạo có sẵn bên dưới:"},"ta":{"prev":"← முந்தையது","next":"அடுத்தது →","open":"அசல் பதிவைத் திறக்கவும்","jumpTitle":"பக்கத்திற்குச் செல்லவும்","jumpClose":"மூடவும்","subtitle":"பிரபஞ்சத்தின் சிறந்த ஹீரோக்களுக்காக அர்ப்பணிக்கப்பட்ட பக்கம்! எனது X கணக்கில் செயற்கை நுண்ணறிவு தொடர்பான 64 ஆயிரத்துக்கும் மேற்பட்ட பதிவுகளின் முழுமையான காப்பகம் கீழே கிடைக்கிறது:"},"it":{"prev":"← Precedente","next":"Successivo →","open":"Apri il post originale","jumpTitle":"Vai alla pagina","jumpClose":"Chiudi","subtitle":"Una pagina dedicata ai migliori eroi dell'Universo! L'archivio completo di oltre 64 mila post dal mio account X relativi ai contenuti sull'Intelligenza Artificiale è disponibile qui sotto:"},"pl":{"prev":"← Poprzednia","next":"Następna →","open":"Otwórz oryginalny post","jumpTitle":"Przejdź do strony","jumpClose":"Zamknij","subtitle":"Strona poświęcona najlepszym bohaterom Wszechświata! Pełne archiwum ponad 64 tysięcy postów z mojego konta X związanych z treściami dotyczącymi sztucznej inteligencji jest dostępne poniżej:"},"nl":{"prev":"← Vorige","next":"Volgende →","open":"Origineel bericht openen","jumpTitle":"Ga naar pagina","jumpClose":"Sluiten","subtitle":"Een pagina gewijd aan de beste helden van het Universum! Het volledige archief van meer dan 64 duizend berichten van mijn X-account over kunstmatige intelligentie is hieronder beschikbaar:"},"el":{"prev":"← Προηγούμενη","next":"Επόμενη →","open":"Άνοιγμα αρχικής ανάρτησης","jumpTitle":"Μετάβαση στη σελίδα","jumpClose":"Κλείσιμο","subtitle":"Μια σελίδα αφιερωμένη στους καλύτερους ήρωες του Σύμπαντος! Το πλήρες αρχείο με περισσότερες από 64 χιλιάδες αναρτήσεις από τον λογαριασμό μου στο X σχετικά με περιεχόμενο τεχνητής νοημοσύνης είναι διαθέσιμο παρακάτω:"},"sv":{"prev":"← Föregående","next":"Nästa →","open":"Öppna originalinlägget","jumpTitle":"Gå till sida","jumpClose":"Stäng","subtitle":"En sida tillägnad universums bästa hjältar! Det fullständiga arkivet med över 64 tusen inlägg från mitt X-konto om innehåll relaterat till artificiell intelligens finns nedan:"},"cs":{"prev":"← Předchozí","next":"Další →","open":"Otevřít původní příspěvek","jumpTitle":"Přejít na stránku","jumpClose":"Zavřít","subtitle":"Stránka věnovaná nejlepším hrdinům vesmíru! Kompletní archiv více než 64 tisíc příspěvků z mého účtu X souvisejících s obsahem o umělé inteligenci je k dispozici níže:"},"ro":{"prev":"← Anterior","next":"Următoarea →","open":"Deschide postarea originală","jumpTitle":"Mergi la pagina","jumpClose":"Închide","subtitle":"O pagină dedicată celor mai buni eroi ai Universului! Arhiva completă de peste 64 de mii de postări de pe contul meu X despre conținut legat de inteligența artificială este disponibilă mai jos:"},"hu":{"prev":"← Előző","next":"Következő →","open":"Eredeti bejegyzés megnyitása","jumpTitle":"Ugrás az oldalra","jumpClose":"Bezárás","subtitle":"Az Univerzum legjobb hőseinek szentelt oldal! Az X-fiókomból származó, mesterséges intelligenciával kapcsolatos több mint 64 ezer bejegyzés teljes archívuma alább érhető el:"}};
 
   const t=translations[lang]||translations.en;
 
@@ -1203,14 +1216,21 @@ function goPage(){
 
   document.querySelectorAll("[data-t]").forEach(el=>{
     const key=el.getAttribute("data-t");
+
     if(t[key]) el.textContent=t[key];
   });
 
   document.querySelectorAll(".tweet-meta").forEach(el=>{
     const raw=el.getAttribute("data-date");
+
     if(!raw)return;
+
     const d=new Date(raw);
-    if(isNaN(d)){el.textContent=raw;return;}
+
+    if(isNaN(d)){
+      el.textContent=raw;
+      return;
+    }
 
     el.textContent=new Intl.DateTimeFormat(locale,{
       weekday:"short",
