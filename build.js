@@ -141,7 +141,7 @@ function renderTweet(tweet) {
       ${renderMedia(tweet)}
 
       <div class="tweet-link">
-        <a href="${url}" rel="noopener noreferrer" data-t="open">Abrir tweet original</a>
+        <a href="${url}" target="_blank" rel="noopener noreferrer" data-t="open">Abrir tweet original</a>
       </div>
     </article>
   `;
