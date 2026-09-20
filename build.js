@@ -128,7 +128,7 @@ function linkifyText(str) {
 function renderTweet(tweet) {
   const text = linkifyText(tweet.full_text || "");
   const id = tweet.id_str || tweet.id || "";
-  const url = "https://x.com/i/web/status/" + id;
+  const url = "https://x.com/supergirlmaid/status/" + id;
 
   return `
     <article class="tweet">
@@ -141,7 +141,7 @@ function renderTweet(tweet) {
       ${renderMedia(tweet)}
 
       <div class="tweet-link">
-        <a href="${url}" target="_blank" rel="noopener noreferrer" data-t="open">Abrir tweet original</a>
+        <a href="${url}" rel="noopener noreferrer" data-t="open">Abrir tweet original</a>
       </div>
     </article>
   `;
