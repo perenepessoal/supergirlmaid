@@ -228,7 +228,7 @@ function getTranslations(subtitle) {
       jumpTitle: "Go to page",
       jumpClose: "Close",
       subtitle:
-        "A page dedicated to the best heroes in the Universe! The full archive of 66,175 posts from my X account, related to Artificial Intelligence content, is available below:"
+        "A page dedicated to the best heroes in the Universe! The full archive of 66,583 posts from my X account, related to Artificial Intelligence content, is available below:"
     },
 
     es: {
@@ -238,7 +238,7 @@ function getTranslations(subtitle) {
       jumpTitle: "Ir a página",
       jumpClose: "Cerrar",
       subtitle:
-        "¡Una página dedicada a los mejores héroes del Universo! El archivo completo de 66.175 publicaciones de mi cuenta de X, relacionado con contenido de IA, está disponible a continuación:"
+        "¡Una página dedicada a los mejores héroes del Universo! El archivo completo de 66.583 publicaciones de mi cuenta de X, relacionado con contenido de IA, está disponible a continuación:"
     },
 
     ru: {
@@ -268,7 +268,7 @@ function getTranslations(subtitle) {
       jumpTitle: "跳转页面",
       jumpClose: "关闭",
       subtitle:
-        "献给宇宙中最伟大英雄的页面！我X账号中超过6.6万条与人工智能相关的帖子完整存档如下:"
+        "献给宇宙中最伟大英雄的页面！我X账号中超过6.7万条与人工智能相关的帖子完整存档如下:"
     },
 
     ar: {
@@ -298,7 +298,7 @@ function getTranslations(subtitle) {
       jumpTitle: "পৃষ্ঠায় যান",
       jumpClose: "বন্ধ করুন",
       subtitle:
-        "মহাবিশ্বের সেরা নায়কদের জন্য নিবেদিত একটি পৃষ্ঠা! আমার X অ্যাকাউন্টের কৃত্রিম বুদ্ধিমত্তা সম্পর্কিত ৬৬ হাজারেরও বেশি পোস্টের সম্পূর্ণ সংরক্ষণাগার নিচে রয়েছে:"
+        "মহাবিশ্বের সেরা নায়কদের জন্য নিবেদিত একটি পৃষ্ঠা! আমার X অ্যাকাউন্টের কৃত্রিম বুদ্ধিমত্তা সম্পর্কিত ৬৭ হাজারেরও বেশি পোস্টের সম্পূর্ণ সংরক্ষণাগার নিচে রয়েছে:"
     },
 
     ja: {
@@ -308,7 +308,7 @@ function getTranslations(subtitle) {
       jumpTitle: "ページへ移動",
       jumpClose: "閉じる",
       subtitle:
-        "宇宙で最高のヒーローたちに捧げるページです！私のXアカウントにある人工知能関連の6万6千件以上の投稿を完全にアーカイブしています。以下からご覧いただけます："
+        "宇宙で最高のヒーローたちに捧げるページです！私のXアカウントにある人工知能関連の6万7千件以上の投稿を完全にアーカイブしています。以下からご覧いただけます："
     },
 
     lah: {
@@ -348,7 +348,7 @@ function getTranslations(subtitle) {
       jumpTitle: "Zu Seite gehen",
       jumpClose: "Schließen",
       subtitle:
-        "Eine Seite, die den besten Helden des Universums gewidmet ist! Das vollständige Archiv von 66.175 Beiträgen aus meinem X-Konto zum Thema Künstliche Intelligenz ist unten verfügbar:"
+        "Eine Seite, die den besten Helden des Universums gewidmet ist! Das vollständige Archiv von 66.583 Beiträgen aus meinem X-Konto zum Thema Künstliche Intelligenz ist unten verfügbar:"
     },
 
     fr: {
@@ -358,7 +358,7 @@ function getTranslations(subtitle) {
       jumpTitle: "Aller à la page",
       jumpClose: "Fermer",
       subtitle:
-        "Une page dédiée aux meilleurs héros de l’Univers ! L’archive complète de 66 175 publications de mon compte X liées au contenu sur l’intelligence artificielle est disponible ci-dessous :"
+        "Une page dédiée aux meilleurs héros de l’Univers ! L’archive complète de 66 583 publications de mon compte X liées au contenu sur l’intelligence artificielle est disponible ci-dessous :"
     },
 
     te: {
@@ -499,7 +499,7 @@ function renderPage(tweets, pageNum, totalPages) {
   const tweetsHtml = tweets.map(renderTweet).join("\n");
 
   const subtitle =
-    'Página dedicada aos melhores heróis do Universo! Todo o acervo de 66.175 publicações da minha conta do "X", relacionado a conteúdo de Inteligência Artificial, está disponível abaixo:';
+    'Página dedicada aos melhores heróis do Universo! Todo o acervo de 66.583 publicações da minha conta do "X", relacionado a conteúdo de Inteligência Artificial, está disponível abaixo:';
 
   const translations = getTranslations(subtitle);
 
