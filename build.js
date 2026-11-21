@@ -228,7 +228,7 @@ function getTranslations(subtitle) {
       jumpTitle: "Go to page",
       jumpClose: "Close",
       subtitle:
-        "A page dedicated to the best heroes in the Universe! The full archive of 67,092 posts from my X account, related to Artificial Intelligence content, is available below:"
+        "A page dedicated to the best heroes in the Universe! The full archive of 67,500 posts from my X account, related to Artificial Intelligence content, is available below:"
     },
 
     es: {
@@ -238,7 +238,7 @@ function getTranslations(subtitle) {
       jumpTitle: "Ir a página",
       jumpClose: "Cerrar",
       subtitle:
-        "¡Una página dedicada a los mejores héroes del Universo! El archivo completo de 67.092 publicaciones de mi cuenta de X, relacionado con contenido de IA, está disponible a continuación:"
+        "¡Una página dedicada a los mejores héroes del Universo! El archivo completo de 67.500 publicaciones de mi cuenta de X, relacionado con contenido de IA, está disponible a continuación:"
     },
 
     ru: {
@@ -348,7 +348,7 @@ function getTranslations(subtitle) {
       jumpTitle: "Zu Seite gehen",
       jumpClose: "Schließen",
       subtitle:
-        "Eine Seite, die den besten Helden des Universums gewidmet ist! Das vollständige Archiv von 67.092 Beiträgen aus meinem X-Konto zum Thema Künstliche Intelligenz ist unten verfügbar:"
+        "Eine Seite, die den besten Helden des Universums gewidmet ist! Das vollständige Archiv von 67.500 Beiträgen aus meinem X-Konto zum Thema Künstliche Intelligenz ist unten verfügbar:"
     },
 
     fr: {
@@ -358,7 +358,7 @@ function getTranslations(subtitle) {
       jumpTitle: "Aller à la page",
       jumpClose: "Fermer",
       subtitle:
-        "Une page dédiée aux meilleurs héros de l’Univers ! L’archive complète de 67 092 publications de mon compte X liées au contenu sur l’intelligence artificielle est disponible ci-dessous :"
+        "Une page dédiée aux meilleurs héros de l’Univers ! L’archive complète de 67 500 publications de mon compte X liées au contenu sur l’intelligence artificielle est disponible ci-dessous :"
     },
 
     te: {
@@ -499,7 +499,7 @@ function renderPage(tweets, pageNum, totalPages) {
   const tweetsHtml = tweets.map(renderTweet).join("\n");
 
   const subtitle =
-    'Página dedicada aos melhores heróis do Universo! Todo o acervo de 67.092 publicações da minha conta do "X", relacionado a conteúdo de Inteligência Artificial, está disponível abaixo:';
+    'Página dedicada aos melhores heróis do Universo! Todo o acervo de 67.500 publicações da minha conta do "X", relacionado a conteúdo de Inteligência Artificial, está disponível abaixo:';
 
   const translations = getTranslations(subtitle);
 
